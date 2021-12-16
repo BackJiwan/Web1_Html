@@ -1,5 +1,9 @@
 body{
   margin:0;
+  /*background-image : linear-gradient(rgb(236,230,204),rgb(240,233,200));*/
+}
+input{
+  display: inline;
 }
 a {
   color: blue;
