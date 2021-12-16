@@ -4,15 +4,20 @@
   <title>세모수 - 멸종위기 수달</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <script src="colors.js"></script>
 </head>
 <body>
   <h1><a href="index.html">세상의 모든 수달</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
   <div id="grid">
     <ol>
       <li><a href="1.html" class="saw">남아메리카 수달</a></li>
       <li><a href="2.html" class="saw" id="active">멸종위기 수달</a></li>
       <li><a href="3.html">자이언트 수달</a></li>
     </ol>
+
     <div id="article">
       <h2>멸종위기 수달</h2>
       <p><a href="https://www.nie.re.kr/endangered_species/home/enspc/enspc06003v.do?species_sn=7" target="_blank"
